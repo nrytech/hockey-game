@@ -4,7 +4,7 @@
 
 Votre objectif pour ce test est de créer un API Rest avec Java et Spring Boot pour ajouter et obtenir les joueurs et les informations de l'équipe de Hockey des Canadiens du Montréal.
 
-**Vous devez créer 2 endpoints dans l'API:**
+**Vous devez créer les endpoints suivants dans l'API:**
 
 -   Un GET pour obtenir l'équipe en fonction de l'année dans la base de données en mémoire (H2).
 -   Un POST pour t'ajouter en tant que nouveau joueur de l'équipe d'une année dans la base de données en mémoire (H2).

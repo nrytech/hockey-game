@@ -12,7 +12,7 @@
 	<artifactId>test-hockey-game</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>test-hockey-game</name>
-	<description>Test entrevues maplr</description>
+	<description>Test technique Maplr</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -47,13 +47,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<optional>true</optional>
-		</dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -66,7 +60,6 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
-
 				</configuration>
 			</plugin>
 		</plugins>

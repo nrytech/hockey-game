@@ -1,7 +1,3 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/maven,windows,macos,java
-# Edit at https://www.toptal.com/developers/gitignore?templates=maven,windows,macos,java
-
 ### Java ###
 # Compiled class file
 *.class
@@ -198,4 +194,23 @@ fabric.properties
 # https://plugins.jetbrains.com/plugin/12206-codestream
 .idea/codestream.xml
 
-# End of https://www.toptal.com/developers/gitignore/api/maven,windows,macos,java,jetbrains
+
+
+# Mac
+/.classpath
+/.factorypath
+/.idea/.gitignore
+/.project
+/.idea/compiler.xml
+/.idea/encodings.xml
+/.idea/jarRepositories.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.settings/org.eclipse.core.resources.prefs
+/.settings/org.eclipse.jdt.apt.core.prefs
+/.settings/org.eclipse.jdt.core.prefs
+/.settings/org.eclipse.m2e.core.prefs
+/package-lock.json
+/test-hockey-game.iml
+/.idea/vcs.xml
+# End

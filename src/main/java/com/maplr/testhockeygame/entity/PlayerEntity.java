@@ -43,7 +43,7 @@ public class PlayerEntity {
 	@ManyToOne(fetch = FetchType.LAZY)
 	private TeamEntity team;
 
-	public boolean isCaptain(){
+	public boolean isCaptain() {
 		return Optional.ofNullable(this.getTeam().getCaptain())
 				.map(PlayerEntity::getId)
 				.map(teamCaptainId -> teamCaptainId.equals(this.getId()))

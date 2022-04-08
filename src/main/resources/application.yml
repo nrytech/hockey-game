@@ -12,6 +12,8 @@ spring:
             path: /h2-console
             enabled: true
 
-#server:
+server:
+    error:
+        include-stacktrace: never
 #    servlet:
 #        contextPath: /api

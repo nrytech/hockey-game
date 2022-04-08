@@ -13,7 +13,7 @@
 					"script": {
 						"exec": [
 							"pm.test(\"Successful  request\", function () {\r",
-							"    pm.expect(pm.response.code).to.be.oneOf([201, 202]);\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
 							"});"
 						],
 						"type": "text/javascript"

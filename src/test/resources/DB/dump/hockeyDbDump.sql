@@ -33,22 +33,22 @@ INSERT INTO "PUBLIC"."TEAM_PLAYERS"("TEAM_ENTITY_ID","PLAYERS_ID")VALUES(1,6);
 INSERT INTO "PUBLIC"."TEAM"("ID","COACH","YEAR")VALUES(2,'Dominique Ducharme',2020); 
 
 INSERT INTO "PUBLIC"."PLAYER"("ID","NUMBER","NAME","LASTNAME","POSITION","TEAM_ID")
-VALUES(7, 31,'Carley','Price','goaltender',1);
+VALUES(7, 31,'Carley','Price','goaltender',2);
 
 INSERT INTO "PUBLIC"."PLAYER"("ID","NUMBER","NAME","LASTNAME","POSITION","TEAM_ID")
-VALUES(8, 14,'Nick','Suzuki','forward',1);
+VALUES(8, 14,'Nick','Suzuki','forward',2);
 
 INSERT INTO "PUBLIC"."PLAYER"("ID","NUMBER","NAME","LASTNAME","POSITION","TEAM_ID")
-VALUES(9, 15,'Jesperi','Kotkaniemi','forward', 1);
+VALUES(9, 15,'Jesperi','Kotkaniemi','forward', 2);
 
 INSERT INTO "PUBLIC"."PLAYER"("ID","NUMBER","NAME","LASTNAME","POSITION","TEAM_ID")
-VALUES(10, 15,'Jake','Evans','forward', 1);
+VALUES(10, 15,'Jake','Evans','forward', 2);
 
 INSERT INTO "PUBLIC"."PLAYER"("ID","NUMBER","NAME","LASTNAME","POSITION","TEAM_ID")
-VALUES(11, 27,'Alexander','Romanov','defenseman', 1);
+VALUES(11, 27,'Alexander','Romanov','defenseman', 2);
 
 INSERT INTO "PUBLIC"."PLAYER"("ID","NUMBER","NAME","LASTNAME","POSITION","TEAM_ID")
-VALUES(12, 6,'Shea','Weber','defenseman', 1);
+VALUES(12, 6,'Shea','Weber','defenseman', 2);
 
 INSERT INTO "PUBLIC"."TEAM_PLAYERS"("TEAM_ENTITY_ID","PLAYERS_ID")VALUES(2,7); 
 INSERT INTO "PUBLIC"."TEAM_PLAYERS"("TEAM_ENTITY_ID","PLAYERS_ID")VALUES(2,8);

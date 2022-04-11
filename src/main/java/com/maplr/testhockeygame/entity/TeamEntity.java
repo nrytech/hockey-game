@@ -34,7 +34,7 @@ public class TeamEntity {
 	@Column(nullable = false)
 	private String coach;
 
-	@OneToMany
+	@OneToMany(mappedBy = "team")
 	private List<PlayerEntity> players;
 
 	@OneToOne

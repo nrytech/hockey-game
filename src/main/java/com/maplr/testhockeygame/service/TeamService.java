@@ -28,7 +28,6 @@ public class TeamService {
 				.map(team -> {
 					PlayerEntity newPlayer = this.playerService.createPlayer(playerDto);
 					newPlayer.setTeam(team);
-					team.getPlayers().add(newPlayer);
 					if (playerDto.isCaptain()) {
 						team.setCaptain(newPlayer);
 					}

@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -42,9 +43,9 @@ public class TeamController {
 	}
 
 	@PostMapping(value = "/{year}", produces = {"application/json"})
-	public ResponseEntity<PlayerDto> addPlayerToTeamOnGivenYear(@PathVariable int year, @RequestBody PlayerDto playerdto) {
+	@ResponseStatus(HttpStatus.CREATED)
+	public PlayerDto addPlayerToTeamOnGivenYear(@PathVariable int year, @RequestBody PlayerDto playerdto) {
 		PlayerEntity newPlayer = this.teamService.addTeamPlayer(year, playerdto);
-		return ResponseEntity.status(HttpStatus.CREATED)
-				.body(this.playerMapper.playerEntityToDto(newPlayer));
+		return this.playerMapper.playerEntityToDto(newPlayer);
 	}
 }

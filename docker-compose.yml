@@ -1,0 +1,9 @@
+version: '1'
+services:
+  test-hockey-game:
+    container_name: test-hockey-game
+    build:
+      dockerfile: Dockerfile
+    image: test-hockey-game:latest
+    ports:
+        - 8080:8080
